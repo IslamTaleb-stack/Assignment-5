@@ -21,8 +21,8 @@ const Footer = () => {
 
                     <div className="mt-4 flex gap-4">
                         <a href="#" className="text-sm text-gray-600 hover:text-[#D91B7E]">GitHub</a>
-<a href="#" className="text-sm text-gray-600 hover:text-[#D91B7E]">Twitter</a>
-<a href="#" className="text-sm text-gray-600 hover:text-[#D91B7E]">LinkedIn</a>
+                        <a href="#" className="text-sm text-gray-600 hover:text-[#D91B7E]">Twitter</a>
+                        <a href="#" className="text-sm text-gray-600 hover:text-[#D91B7E]">LinkedIn</a>
                     </div>
                 </div>
 

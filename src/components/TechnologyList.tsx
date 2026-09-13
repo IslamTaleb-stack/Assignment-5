@@ -71,7 +71,7 @@ const TechnologyList = () => {
                 <>
                     <h2 className="mb-8 text-3xl font-bold">Explore Technologies</h2>
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
-                        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:col-span-3">
+                        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 lg:col-span-3">
                             {technologies.map((technology) => (
                                 <TechnologyCard
                                     key={technology.id}
