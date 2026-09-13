@@ -11,11 +11,11 @@ const Hero = () => {
                     <div className="flex-1">
                         <h1 className="text-4xl font-bold">Build Your Ideal
                             <br />
-                             <span className="bg-linear-to-r from-orange-400 via-pink-500 to-violet-600 bg-clip-text text-transparent">Development Stack</span>
+                             <span className="brand-gradient-text">Development Stack</span>
                         </h1>
                        
                         <p className="mt-4 text-base leading-7 text-gray-600">Explore frontend, backend, database, and tooling options, compare them side by side, and put together the stack that fits your next project.</p>
-                        <button className="mt-6 rounded-full bg-linear-to-r from-orange-400 via-pink-500 to-violet-600 px-6 py-3 font-semibold text-white">Explore Technologies</button>
+                        <button className="mt-6 rounded-full brand-gradient px-6 py-3 font-semibold text-white">Explore Technologies</button>
                         <button className="mt-6 ml-4 rounded-full border border-gray-300 px-6 py-3 font-semibold text-gray-700">Learn More</button>
                     </div>
 
