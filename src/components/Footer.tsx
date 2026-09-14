@@ -2,7 +2,7 @@ import Logo from "../assets/logo-text.png";
 
 const Footer = () => {
     return (
-        <footer className="border-t border-gray-200 bg-white">
+        <footer id="footer" className="border-t border-gray-200 bg-white">
 
             <div className="container mx-auto grid grid-cols-1 gap-10 px-4 py-12 md:grid-cols-2 lg:grid-cols-4">
 
@@ -31,9 +31,9 @@ const Footer = () => {
                     <h3 className="font-semibold">PRODUCT</h3>
 
                     <div className="mt-4 space-y-3">
-                        <a href="#" className="block text-sm text-gray-600">Home</a>
-                        <a href="#" className="block text-sm text-gray-600">Technologies</a>
-                        <a href="#" className="block text-sm text-gray-600">Projects</a>
+                        <a href="#home" className="block text-sm text-gray-600">Home</a>
+                        <a href="#technologies" className="block text-sm text-gray-600">Technologies</a>
+                        <a href="#projects" className="block text-sm text-gray-600">Projects</a>
                     </div>
                 </div>
 
@@ -42,9 +42,9 @@ const Footer = () => {
                     <h3 className="font-semibold">COMPANY</h3>
 
                     <div className="mt-4 space-y-3">
-                        <a href="#" className="block text-sm text-gray-600">About</a>
-                        <a href="#" className="block text-sm text-gray-600">Contact</a>
-                        <a href="#" className="block text-sm text-gray-600">Careers</a>
+                        <a href="#about" className="block text-sm text-gray-600">About</a>
+                        <a href="#contact" className="block text-sm text-gray-600">Contact</a>
+                        <a href="#careers" className="block text-sm text-gray-600">Careers</a>
                     </div>
                 </div>
 
@@ -53,8 +53,8 @@ const Footer = () => {
                     <h3 className="font-semibold">LEGAL</h3>
 
                     <div className="mt-4 space-y-3">
-                        <a href="#" className="block text-sm text-gray-600">Privacy Policy</a>
-                        <a href="#" className="block text-sm text-gray-600">Terms of Service</a>
+                        <a href="#footer" className="block text-sm text-gray-600">Privacy Policy</a>
+                        <a href="#footer" className="block text-sm text-gray-600">Terms of Service</a>
                     </div>
                 </div>
 
@@ -67,8 +67,8 @@ const Footer = () => {
                     <p>© 2026 Dev Stack. All rights reserved.</p>
 
                     <div className="flex gap-4">
-                        <a href="#">Privacy</a>
-                        <a href="#">Terms</a>
+                        <a href="#privacy">Privacy</a>
+                        <a href="#terms">Terms</a>
                     </div>
 
                 </div>

@@ -59,7 +59,7 @@ const TechnologyList = () => {
     };
 
     return (
-        <section className="container mx-auto px-4 py-16">
+        <section id="technologies" className="container mx-auto px-4 py-16">
             
              <ToastContainer />
            
